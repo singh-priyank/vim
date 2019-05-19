@@ -90,14 +90,14 @@ Bundle 'coyotebush/vim-pweave'
 ""    \ "passive_filetypes": ["python"] }
 "map <F8> :SyntasticCheck<CR>
 
-" ALE
-Bundle "w0rp/ale"
-let g:airline#extensions#ale#enabled = 1
-let g:ale_lint_on_text_changed = 'never'
-let g:ale_lint_on_enter = 0
-let g:ale_cpp_gcc_options = '-std=c++11'
-let g:ale_tex_chktex_options = '-n26 -n18'
-let g:ale_linters = {
+"" ALE
+"Bundle "w0rp/ale"
+"let g:airline#extensions#ale#enabled = 1
+"let g:ale_lint_on_text_changed = 'never'
+"let g:ale_lint_on_enter = 0
+"let g:ale_cpp_gcc_options = '-std=c++11'
+"let g:ale_tex_chktex_options = '-n26 -n18'
+"let g:ale_linters = {
             \ 'python' : [ 'pyflakes'], 
             \}
 
@@ -120,7 +120,7 @@ nnoremap <C-l> :call unicoder#start(0)<CR>
 inoremap <C-l> <Esc>:call unicoder#start(1)<CR>
 vnoremap <C-l> :<C-u>call unicoder#selection()<CR>
 
-colorscheme solarized
+colorscheme default
 filetype plugin on
 filetype plugin indent on
 syntax on
