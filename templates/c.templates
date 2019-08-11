@@ -9,10 +9,10 @@
 §    file, because these commands are read later
 § =============================================================
 
-SetMacro( 'AUTHOR',       'Dilawar Singh' )
+SetMacro( 'AUTHOR',       'Priyank Kumar Singh' )
 SetMacro( 'AUTHORREF',    '' )
-SetMacro( 'EMAIL',        'dilawar.s.rajput@gmail.com' )
-SetMacro( 'ORGANIZATION', 'NCBS Bangalore' )
+SetMacro( 'EMAIL',        'priyankkumar179@gmail.com' )
+SetMacro( 'ORGANIZATION', 'RVCE Bangalore' )
 SetMacro( 'COMPANY',      '' )
 SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR|, |AUTHOR|' )
 SetMacro( 'LICENSE',      'GNU General Public License' )
